@@ -1,0 +1,16 @@
+   Problem Statement
+Please create a new Android project using Jetpack Compose (including a ViewModel) that shows a
+ TODO: 1-minute countdown including seconds and milliseconds.
+
+These are the mandatory requirements:
+TODO 2* One label that shows the current timer value -->
+TODO 3* Two buttons that can be clicked to start/pause and stop the timer
+TODO 4* The timer should work correctly when the app is in the background
+TODO 5* The ViewModel should use Flows / StateFlows for the implementation of the logic
+TODO 6* The ViewModel should be created by dependency injection with Koin
+TODO 7* You should solve IDE warnings and make sure there is no unnecessary code - in other words, the code should look production ready
+
+and for extra points:
+TODO 8* Your code should contain sufficient comments
+TODO 9* The app should post a system notification when the timer ends if the app is in the background
+TODO 10* The View shows an animated ring around the text and the button that shows the current state of the timer
