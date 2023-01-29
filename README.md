@@ -28,12 +28,13 @@ If app is in background the app sends a notification to notify the user
 <img src="/screenshots/package_structure.png" width="260">
 
 ## :camera_flash: Screenshots
-<img src="/screenshots/0.png" width="260">&emsp;<img src="/screenshots/1.png" width="260"> &emps;<img src="/screenshots/2.png" width="260">
+<img src="/screenshots/0.png" width="260">&emsp;<img src="/screenshots/1.png" width="260"> &emsp;<img src="/screenshots/2.png" width="260">
 
 
 ##  The project is build using
 - Android studio Dolphin
 - minSDK -> 26
-- targetSDK -> 32
+- targetSDK -> 33
 - kotlin version -> 1.7.20
+-compose version -> 1.3.3
 
