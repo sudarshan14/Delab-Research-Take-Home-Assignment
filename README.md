@@ -20,7 +20,7 @@ If app is in background the app sends a notification to notify the user
     - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow)
     - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html)
     - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
-    - [DaggerHilt](https://developer.android.com/training/dependency-injection/hilt-android)
+    - [Koin](https://insert-koin.io/)
 
 
 ##  Package Structure
@@ -28,7 +28,7 @@ If app is in background the app sends a notification to notify the user
 <img src="/screenshots/package_structure.png" width="260">
 
 ## :camera_flash: Screenshots
-<img src="/screenshots/0.png" width="260">&emsp;<img src="/screenshots/1.png" width="260"> &emps;<img src="/screenshots/2.png" width="260">
+<img src="/screenshots/0.png" width="260">&emsp;<img src="/screenshots/1.png" width="260"> &emsp;<img src="/screenshots/2.png" width="260">
 
 
 ##  The project is build using

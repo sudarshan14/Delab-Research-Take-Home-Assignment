@@ -1,23 +1,17 @@
 package com.amlavati.delabresearchtakehomeassignment.viewmodel
 
 import android.os.CountDownTimer
-import android.os.Handler
-import android.os.Looper
-import android.os.SystemClock
 import androidx.lifecycle.ViewModel
 import com.amlavati.delabresearchtakehomeassignment.App
 import com.amlavati.delabresearchtakehomeassignment.App.Companion.isInBackground
 import com.amlavati.delabresearchtakehomeassignment.utils.Utility
 import com.amlavati.delabresearchtakehomeassignment.utils.createNotification
-import com.amlavati.delabresearchtakehomeassignment.utils.printDebugLog
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import javax.inject.Inject
 import kotlin.math.roundToInt
 
-@HiltViewModel
-class CounterViewModel @Inject constructor(private val context: App) :
+
+class CounterViewModel(private val context: App) :
     ViewModel() {
 
     private val _isPlaying = MutableStateFlow(false)

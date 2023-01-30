@@ -1,10 +1,13 @@
 package com.amlavati.delabresearchtakehomeassignment
 
 import android.app.Application
-import androidx.lifecycle.*
-import dagger.hilt.android.HiltAndroidApp
+import androidx.lifecycle.DefaultLifecycleObserver
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.ProcessLifecycleOwner
+import com.amlavati.delabresearchtakehomeassignment.di.appModule
+import org.koin.android.ext.koin.androidContext
+import org.koin.core.context.startKoin
 
-@HiltAndroidApp
 class App : Application(), DefaultLifecycleObserver {
 
 
@@ -19,6 +22,11 @@ class App : Application(), DefaultLifecycleObserver {
         super<Application>.onCreate()
 
         ProcessLifecycleOwner.get().lifecycle.addObserver(this)
+
+        startKoin {
+            androidContext(this@App)
+            modules(appModule)
+        }
     }
 
 

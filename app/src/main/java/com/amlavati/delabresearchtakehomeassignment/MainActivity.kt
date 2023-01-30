@@ -11,10 +11,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.amlavati.delabresearchtakehomeassignment.ui.theme.DelabResearchTakeHomeAssignmentTheme
 import com.amlavati.delabresearchtakehomeassignment.view.CountDownTimer
-import dagger.hilt.android.AndroidEntryPoint
 
 
-@AndroidEntryPoint
+
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

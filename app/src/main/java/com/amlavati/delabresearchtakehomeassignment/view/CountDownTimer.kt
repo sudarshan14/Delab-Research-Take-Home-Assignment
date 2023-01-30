@@ -17,10 +17,11 @@ import com.amlavati.delabresearchtakehomeassignment.utils.Utility
 import com.amlavati.delabresearchtakehomeassignment.utils.Utility.formatTime
 import com.amlavati.delabresearchtakehomeassignment.viewmodel.CounterViewModel
 import com.google.accompanist.permissions.*
+import org.koin.androidx.compose.getViewModel
 
 @Composable
 fun CountDownTimer(
-    viewModel: CounterViewModel = viewModel()
+    viewModel: CounterViewModel = getViewModel()
 ) {
 
 
