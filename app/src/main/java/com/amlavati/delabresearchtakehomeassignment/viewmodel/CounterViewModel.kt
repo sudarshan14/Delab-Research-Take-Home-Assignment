@@ -84,32 +84,4 @@ class CounterViewModel(private val context: App) :
     }
 
 
-    /*  private fun usingHandler(){
-
-        private var countDownTimerHandler = Handler(Looper.getMainLooper())
-      private var runnable: Runnable? = null
-          var millisUntilFinished = Utility.TIME_COUNTDOWN
-          val countDownInterval = 1000L
-          var timeInMilliSeconds = 0L
-          var startTime = SystemClock.uptimeMillis() + millisUntilFinished
-          printDebugLog("startTime $startTime")
-          var updateTime = 0L
-          runnable = object : Runnable {
-              override fun run() {
-                  //    startTime = SystemClock.uptimeMillis() - 3234566565L
-
-  //                timeInMilliSeconds = SystemClock.uptimeMillis() -startTime
-  //                printDebugLog("timeInMilliSeconds $timeInMilliSeconds")
-  //                updateTime = 0L + timeInMilliSeconds
-
-                  millisUntilFinished -= countDownInterval
-                  //   millisUntilFinished -= d
-                  val progressValue = millisUntilFinished.toFloat() / Utility.TIME_COUNTDOWN
-                  val progressValueRoundOff = (progressValue * 100.0).roundToInt() / 100.0
-                  handleTimerValues(true, millisUntilFinished, progressValueRoundOff.toFloat())
-
-                  countDownTimerHandler.postDelayed(this, 1000L)
-              }
-          }
-      }*/
 }
